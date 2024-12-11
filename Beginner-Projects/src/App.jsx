@@ -1,12 +1,15 @@
 import React from 'react';
 import Counterproject from './Projects/Counter-Project';
 import Todoproject from './Projects/TOdo-Project';
+import Main from './Projects/Calculator/main';
 
 const App = () => {
   return (
     <div>
       {/* <Counterproject /> */}
-      <Todoproject />
+      {/* <Todoproject /> */}
+      {/* <Meals /> */}
+      <Main />
     </div>
   );
 }
