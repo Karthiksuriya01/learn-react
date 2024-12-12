@@ -2,6 +2,7 @@ import React from 'react';
 import Counterproject from './Projects/Counter-Project';
 import Todoproject from './Projects/TOdo-Project';
 import Main from './Projects/Calculator/main';
+import Testimonial from './Projects/Testimonial';
 
 const App = () => {
   return (
@@ -9,7 +10,8 @@ const App = () => {
       {/* <Counterproject /> */}
       {/* <Todoproject /> */}
       {/* <Meals /> */}
-      <Main />
+      {/* <Main /> */}
+      <Testimonial />
     </div>
   );
 }
