@@ -8,8 +8,8 @@ const Form = () => {
   // register - used to connect input fields to the form 
   // handleSubmit - it is a function to handle form submission
   // errors - contains validation errors for the form.
-  
-  interface FormData
+   
+  interface FormData   //typescript
   {
     firstName : string;
     lastName : string;
