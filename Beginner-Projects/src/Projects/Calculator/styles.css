@@ -14,4 +14,28 @@ body
 button{
     margin: 20px;
     border: 1px solid;
+    padding: 20px;
+}
+
+button:hover
+{
+    background-color: #f0f0f0;
+}
+button:active
+{
+    background-color: #e0e0e0;
+}
+button:focus
+{
+    outline: none;
+    
+}
+
+input
+{
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    font-size: 20px;
+    text-align: right;
 }
