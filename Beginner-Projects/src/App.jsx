@@ -10,8 +10,8 @@ const App = () => {
       {/* <Counterproject /> */}
       {/* <Todoproject /> */}
       {/* <Meals /> */}
-      {/* <Main /> */}
-      <Testimonial />
+      <Main />
+      {/* <Testimonial /> */}
     </div>
   );
 }
