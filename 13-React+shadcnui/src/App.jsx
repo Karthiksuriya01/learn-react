@@ -56,9 +56,9 @@ const App = () => {
       <Carousel
       opts={{
         align: "start",
-        loop:true,
+        loop:true
       }}
-    
+      className="w-full max-w-sm align-middle align-center"
     >
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
