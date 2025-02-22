@@ -10,7 +10,12 @@ const Navbar = () => {
         {/* //we have to use Link to navigate to different pages
         //to in link and path in route should be same */}
 
-        
+        {//we can also use NavLink instead of Link}
+        //NavLink is used to show the active link
+        //NavLink has active class by default
+        //NavLink has activeStyle property to style the active link
+        //NavLink has activeClassName property to give custom class to active link
+        }
       </ul>
     </div>
   );

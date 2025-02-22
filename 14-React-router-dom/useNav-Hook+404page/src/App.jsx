@@ -4,6 +4,7 @@ import Aboutus from "./pages/aboutus";
 import Contactus from "./pages/contactus";
 import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./layout/RootLayout";
+import Notfound from "./pages/404";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
           <Route path = '/' element={<Homepage></Homepage>}></Route>
           <Route path="/aboutus" element={<Aboutus></Aboutus>}></Route>
           <Route path="/contactus" element={<Contactus></Contactus>}></Route>
+          <Route path="*" element={<Notfound />} />
       </Route>
     )
   )
