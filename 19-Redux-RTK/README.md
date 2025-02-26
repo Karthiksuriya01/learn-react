@@ -1,8 +1,8 @@
-# React + Vite
+# Slice
+- It is a <mark style="background-color:yellow">Piece of store state</mark>
+and the corresponding reducer logic to update that state. Slices are a way to organize our Redux store by breaking it down into smaller, more manageable parts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<hr>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Reducer
+- In Redux, reducers are pure function that handles state logic, accepting the initial state and action type to update and return the state, faciliating changes in React view Component
