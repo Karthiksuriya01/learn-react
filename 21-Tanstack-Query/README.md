@@ -1,15 +1,12 @@
-# Tanstack Query
-- It is a popular library used in react application for managing server state handling <mark style="background-color:green">Asynchronous data fetching</mark>
-- It provides a set of hooks that simplify the process of fetching, caching, synchronizing, and updating data in a React app.
+# React + Vite
 
-- It is a <mark>Framework Agnostic</mark>
-- - It is not Limited to React, it has been expaned to support other frameworks and libraries
-## Query Client
-- It is the  heart of Tanstack query
-- It is responsible for fetching data from the server
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## useQuey():
-- it is a function that helps us to fetch and manage server data in our application
+Currently, two official plugins are available:
 
-## Deduplication
-- if we try to fetch the same data multiple times at once. it will only send one request instead of many. Deduplication helps avoid asking for same data over and over again
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
