@@ -3,6 +3,7 @@ import Without_T_Q from './components/withouttanstackquery';
 import With_T_Q from './components/withtanstackquery';
 import Deduplication from './components/deduplication';
 import StaleTime from './components/staleTime';
+import RefetchInterval from './components/RefetchInterval';
 const App = () => {
   return (
     <div>
@@ -12,7 +13,8 @@ const App = () => {
       <Deduplication/>
       <Deduplication/>
       <Deduplication/> */}
-      <StaleTime/>
+      {/* <StaleTime/> */}
+      <RefetchInterval/>
 
     </div>
   );
